@@ -4,6 +4,38 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('images.html/Brax.jpg');
+  background-image: url('images.html/Headshot.jpg');
   min-height: 100%;
 }
+.w3-half:hover{
+  animation: myImgSize;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+
+
+}
+@keyframes myImgSize{
+  0%{
+    font-size: 15px;
+  }
+  30%{
+    font-size: 30px;
+  }
+  50%{
+    font-size: 8px;
+  }
+}
+@keyframes myScale {
+  10% {
+    transform: scale(2, 2);
+  }
+}
+/* .resume:hover{
+  animation: myScale;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; */
+
+
+}
+
